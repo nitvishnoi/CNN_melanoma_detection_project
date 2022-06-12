@@ -1,5 +1,10 @@
 # CNN_melanoma_detection_project
 
+## About Melanoma
+* Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis. In this assignment, I am building multiclass classification model using a custom convolutional neural network in TensorFlow. The model can classify images in malignant and benign oncological diseases (Actinic keratosis,Basal cell carcinoma,Dermatofibroma,Melanoma,Nevus,Pigmented benign keratosis,Seborrheic keratosis,Squamous cell carcinoma,Vascular lesion)
+
+* The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+
 ## Problem Statement
 In this assignment, you will build a multiclass classification model using a custom convolutional neural network in TensorFlow. 
 
@@ -58,6 +63,14 @@ The model training may take time to train as you will be working with large epoc
 
 You need to submit a GitHub repository link that contains the above files. You need to write a README.md for the GitHub repository. Make sure your GitHub link is public. 
 
-Please find a template of the README.md file. You can also create your own template but make sure a brief description of your project is written in this file. 
+### Analysis for the final model:
+
+ACCURACY = 92.89%:
+
+VALIDATION ACCURACY = 86.37% :
+
+The model is not overfitting with this model and due to augmentation the accuracy has significantly increased
+
+As its important to balance out the data set so yes class rebalance helped here in this model
 
 ===============================================================================================================================================================
