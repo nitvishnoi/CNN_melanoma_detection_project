@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "CNN_melanoma_detection_project"
+title: "CNN_melanoma_detection_project"
+version: 1.0.0
+doi: 10.5281/zenodo.1234567   # optional if linked to Zenodo
+date-released: 2025-10-25
+authors:
+  - family-names: Vishnoi
+    given-names: Nitin
+    affiliation: ""
+    orcid: "https://orcid.org/0009-0000-5871-9307"
+repository-code: "https://github.com/nitvishnoi/CNN_melanoma_detection_project/"
+keywords:
+  - AI
+  - CNN_melanoma_detection_project
+  - CNN
+  - cancer detection algorithm
+license: MIT
+abstract: "This repository contains the source code and datasets for [CNN_melanoma_detection_project]."
