@@ -1,19 +1,27 @@
 cff-version: 1.2.0
-message: "CNN_melanoma_detection_project"
-title: "CNN_melanoma_detection_project"
+message: "If you use this software, please cite it as below."
+title: "CNN Melanoma Detection Project"
+type: software
 version: 1.0.0
-doi: 10.5281/zenodo.1234567   # optional if linked to Zenodo
+doi: 10.5281/zenodo.17444274
 date-released: 2025-10-25
 authors:
   - family-names: Vishnoi
     given-names: Nitin
-    affiliation: ""
     orcid: "https://orcid.org/0009-0000-5871-9307"
-repository-code: "https://github.com/nitvishnoi/CNN_melanoma_detection_project/"
+repository-code: "https://github.com/nitvishnoi/CNN_melanoma_detection_project"
+license: CC-BY-4.0
 keywords:
-  - AI
-  - CNN_melanoma_detection_project
-  - CNN
-  - cancer detection algorithm
-license: MIT
-abstract: "This repository contains the source code and datasets for [CNN_melanoma_detection_project]."
+  - melanoma detection
+  - convolutional neural network
+  - deep learning
+  - medical imaging
+  - skin cancer classification
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17444274
+    description: "Concept DOI - always resolves to the latest version"
+  - type: doi
+    value: 10.5281/zenodo.17444275
+    description: "DOI for version 1.0.0"
+abstract: "Source code and training pipeline for a convolutional neural network that classifies dermoscopic skin lesion images for melanoma detection."
